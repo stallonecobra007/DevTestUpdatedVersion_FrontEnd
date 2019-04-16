@@ -3,7 +3,8 @@
   <div class="row">
     <div class="offset-md-3">
         <div class="row justify-content-center">
-            <p id="instructions">Please enter 1 set of comma delimeted numbers to calculate the {{ statisticType }}<p>
+            <p id="instructions">Please enter a set of comma delimeted numbers to calculate the {{ statisticType }}<p>
+          <p>A new Test</p>
         </div>
         <input type="text" (keyup.enter)="onEnter()" class="form-control statsBox" placeholder="ex: 1,2,3,4" [(ngModel)]="userValues"/> 
         <br />
